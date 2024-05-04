@@ -126,6 +126,11 @@ img{
   background-color: var(--a-white-50);
 }
 
+.follow_btn.followed{
+  background-color: var(--a-black-500);
+  color: #fff;
+}
+
 .divider{
   display: block;
   height: 2px;

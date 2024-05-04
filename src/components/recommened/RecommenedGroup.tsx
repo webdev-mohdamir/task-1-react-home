@@ -4,18 +4,22 @@ const dummyData = [
   {
     name: "Leisure",
     image_src: "r-1.png",
+    isFollow: true,
   },
   {
     name: "Activism",
     image_src: "r-2.png",
+    isFollow: false,
   },
   {
     name: "MBA",
     image_src: "r-3.png",
+    isFollow: false,
   },
   {
     name: "Philosophy",
     image_src: "r-4.png",
+    isFollow: false,
   },
 ];
 
@@ -33,11 +37,15 @@ const RecommenedGroup = () => {
             className="d-flex align-items-center gap-3 justify-content-between mt-3"
           >
             <div className="d-flex gap-4 align-items-center">
-              <img src={`/images/avatar/${item.image_src}`} alt="" />
+              <img src={`/images/avatar/${item.image_src}`} alt={item.name} />
               <span className="fw-normal">{item.name}</span>
             </div>
-            <Button className="follow_btn gray_btn icon_btn rounded-pill">
-              Follow
+            <Button
+              className={`follow_btn gray_btn icon_btn rounded-pill ${
+                item.isFollow ? "followed" : ""
+              }`}
+            >
+              {item.isFollow ? "Followed" : "Follow"}
             </Button>
           </li>
         ))}
