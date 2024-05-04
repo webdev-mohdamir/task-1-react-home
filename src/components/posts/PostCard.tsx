@@ -37,7 +37,7 @@ const PostCard = (post: Post) => {
     >
       <Card.Img
         variant="top"
-        src={`src/assets/images/posts/${post.image_src}`}
+        src={`../assets/images/posts/${post.image_src}`}
       />
 
       <Card.Subtitle>{toTitleCase(getTypeValue(post))}</Card.Subtitle>

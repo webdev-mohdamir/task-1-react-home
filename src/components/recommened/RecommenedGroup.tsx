@@ -33,10 +33,7 @@ const RecommenedGroup = () => {
             className="d-flex align-items-center gap-3 justify-content-between mt-3"
           >
             <div className="d-flex gap-4 align-items-center">
-              <img
-                src={`../src/assets/images/avatar/${item.image_src}`}
-                alt=""
-              />
+              <img src={`../assets/images/avatar/${item.image_src}`} alt="" />
               <span className="fw-normal">{item.name}</span>
             </div>
             <Button className="follow_btn gray_btn icon_btn rounded-pill">
