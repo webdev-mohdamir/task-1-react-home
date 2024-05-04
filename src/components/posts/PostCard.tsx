@@ -35,7 +35,7 @@ const PostCard = (post: Post) => {
       className={`post-card ${post.type && post.type.toLowerCase()}`}
       id={post.post_id.toString()}
     >
-      <Card.Img variant="top" src={`../images/posts/${post.image_src}`} />
+      <Card.Img variant="top" src={`/images/posts/${post.image_src}`} />
 
       <Card.Subtitle>{toTitleCase(getTypeValue(post))}</Card.Subtitle>
 

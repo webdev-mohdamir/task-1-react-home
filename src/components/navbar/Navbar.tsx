@@ -34,13 +34,12 @@ const Navbar = () => {
               <img src={downDownIcon} alt="down arrow" />
             </Link>
           )) || (
-            <div
-              className="user_credentials d-flex gap-2"
-              style={{ cursor: "pointer" }}
-            >
-              <AuthorBox name={user?.name} image_src={user?.image_src} />
-              <img src={downDownIcon} alt="down arrow" />
-            </div>
+            <Link to={"/auth/signup"}>
+              <div className="user_credentials d-flex gap-2">
+                <AuthorBox name={user?.name} image_src={user?.image_src} />
+                <img src={downDownIcon} alt="down arrow" />
+              </div>
+            </Link>
           )}
         </div>
       </BootNavbar>

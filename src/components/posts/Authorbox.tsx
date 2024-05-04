@@ -4,7 +4,7 @@ const AuthorBox = ({ name, image_src }: Author) => {
   return (
     <div className="author d-flex justify-content-between align-items-center">
       <div className="author_img">
-        <img src={`../images/avatar/${image_src}`} alt={name} />
+        <img src={`/images/avatar/${image_src}`} alt={name} />
       </div>
 
       <div className="author_details">

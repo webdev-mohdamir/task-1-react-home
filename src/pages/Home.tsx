@@ -1,4 +1,3 @@
-import PostImg1 from "@/assets/images/posts/post-1.png";
 import Header from "@/components/header/Header";
 import RactagnleBtn from "@/components/ui/buttons/RactangleBtn";
 import posts from "@/data/post-data.json";
@@ -61,7 +60,7 @@ const Home = () => {
 
   return (
     <>
-      <Header postImg={PostImg1} />
+      <Header postImg={"/images/posts/post-1.png"} />
 
       <Container>
         <div className="pt-5 pb-4 d-block d-sm-flex justify-content-between sticky-sm-top bg-white">
