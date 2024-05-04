@@ -1,0 +1,178 @@
+[
+  {
+    "post_id": 1,
+    "title": "What if famous brands had regular fonts? Meet RegulaBrands!",
+    "description": "I’ve worked in UX for the better part of a decade. From now on, I plan to read more about my experiences in the field.",
+    "image_src": "post-1.png",
+    "type": "article",
+    "view_count": 1400,
+    "author": {
+      "name": "Sarthak Kamra",
+      "image_src": "avatar-1.png"
+    },
+    "details": "Remote work has become the new normal for many. Here's how to make the most out of it."
+  },
+  {
+    "post_id": 2,
+    "title": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+    "description": "Online learning has evolved rapidly in recent years. Learn about the latest trends and technologies revolutionizing education.",
+    "image_src": "post-2.png",
+    "type": "education",
+    "view_count": 1400,
+    "author": {
+      "name": "Sarah West",
+      "image_src": "avatar-2.png"
+    }
+  },
+  {
+    "post_id": 3,
+    "title": "Finance & Investment Elite Social Mixer @Lujiazui",
+    "description": "Join us for a meetup focused on building scalable systems in the cloud.",
+    "image_src": "post-4.png",
+    "type": "event",
+    "view_count": 800,
+    "author": {
+      "name": "James Walker",
+      "image_src": "avatar-4.png"
+    },
+    "details": {
+      "sub_type": "meetup",
+      "meetup_date": "2018-10-12",
+      "location": "Ahmedabad, India",
+      "button_text": "Join Us"
+    }
+  },
+  {
+    "post_id": 4,
+    "title": "Software Developer",
+    "image_src": "post-5.png",
+    "type": "job",
+    "view_count": 320,
+    "author": {
+      "name": "Sarah Thompson",
+      "image_src": "avatar-5.png"
+    },
+    "details": {
+      "job_company": "Innovaccer Analytics Private Ltd.",
+      "job_location": "Noida, India",
+      "button_text": "Apply Now"
+    }
+  },
+  {
+    "post_id": 5,
+    "title": "The Future of AI in Healthcare",
+    "description": "Exploring the potential impacts of artificial intelligence on healthcare.",
+    "image_src": "post-3.png",
+    "type": "article",
+    "view_count": 1100,
+    "author": {
+      "name": "Diana Lee",
+      "image_src": "avatar-3.png"
+    },
+    "details": "AI is transforming healthcare. Learn about the latest developments and what they mean for the future."
+  },
+  {
+    "post_id": 6,
+    "title": "Web Security Best Practices",
+    "description": "Learn about the latest security practices to keep your website safe.",
+    "image_src": "post-1.png",
+    "type": "article",
+    "view_count": 960,
+    "author": {
+      "name": "Alice Johnson",
+      "image_src": "avatar-1.png"
+    },
+    "details": "Keeping your website secure is crucial. Here are some tips to help you stay safe online."
+  },
+  {
+    "post_id": 7,
+    "title": "Tech Meetup: AI for Good",
+    "description": "Join us for a meetup to discuss AI's potential for positive impact on society.",
+    "image_src": "post-2.png",
+    "type": "event",
+    "view_count": 600,
+    "author": {
+      "name": "John Smith",
+      "image_src": "avatar-2.png"
+    },
+    "details": {
+      "sub_type": "meetup",
+      "meetup_date": "2024-07-10",
+      "location": "Boston, MA",
+      "button_text": "Register"
+    }
+  },
+  {
+    "post_id": 8,
+    "title": "Backend Developer Position",
+    "image_src": "post-3.png",
+    "type": "job",
+    "view_count": 700,
+    "author": {
+      "name": "Diana Lee",
+      "image_src": "avatar-3.png"
+    },
+    "details": {
+      "job_company": "Backend Developer",
+      "job_location": "Austin, TX",
+      "button_text": "Apply Here"
+    }
+  },
+  {
+    "post_id": 9,
+    "title": "Innovations in Renewable Energy",
+    "description": "A look at the latest innovations in renewable energy sources.",
+    "image_src": "post-4.png",
+    "type": "article",
+    "view_count": 750,
+    "author": {
+      "name": "James Walker",
+      "image_src": "avatar-4.png"
+    },
+    "details": "Renewable energy is the future. Discover the latest breakthroughs in solar and wind power."
+  },
+  {
+    "post_id": 10,
+    "title": "Tech Meetup: Virtual Reality in Gaming",
+    "description": "Experience the latest in virtual reality gaming at our upcoming meetup.",
+    "image_src": "post-5.png",
+    "type": "event",
+    "view_count": 950,
+    "author": {
+      "name": "Sarah Thompson",
+      "image_src": "avatar-5.png"
+    },
+    "details": {
+      "sub_type": "meetup",
+      "meetup_date": "2024-08-20",
+      "location": "Los Angeles, CA",
+      "button_text": "Join Us"
+    }
+  },
+  {
+    "post_id": 16,
+    "title": "The Future of Online Learning",
+    "description": "Exploring the trends and innovations shaping the future of online education.",
+    "image_src": "post-1.png",
+    "type": "education",
+    "view_count": 820,
+    "author": {
+      "name": "Emily Davis",
+      "image_src": "avatar-1.png"
+    },
+    "details": "Online learning has evolved rapidly in recent years. Learn about the latest trends and technologies revolutionizing education."
+  },
+  {
+    "post_id": 17,
+    "title": "Mastering Python: A Comprehensive Guide",
+    "description": "A step-by-step guide to mastering Python programming language from beginner to advanced level.",
+    "image_src": "post-2.png",
+    "type": "education",
+    "view_count": 1050,
+    "author": {
+      "name": "Michael Johnson",
+      "image_src": "avatar-2.png"
+    },
+    "details": "Python is one of the most popular programming languages. This guide covers everything you need to know to become proficient in Python."
+  }
+]
