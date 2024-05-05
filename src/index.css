@@ -433,6 +433,11 @@ img{
 
 
 @media screen and (max-width: 584px) {
+
+  .author .author_name {
+      font-size: 14px;
+    }
+
   .action_buttons .group_btn{
     background-color: transparent;
     color: #fff;
@@ -462,5 +467,13 @@ img{
     .popup_modal .icon_btn {
       top: 30px;
       right: 40px;
+    }
+    .icon_btn span{
+      font-size: 12px;
+    }
+
+    .icon_btn svg{
+      height: 20px;
+      width: 20px;
     }
 }
